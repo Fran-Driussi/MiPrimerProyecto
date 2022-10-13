@@ -221,6 +221,7 @@ a {
 /*tiendas*/
 .fondostores {
     background-image: url("../assets/Imagenes/stores.jpg");
+    width: 100%;
 }
 
 .titulo-stores {
