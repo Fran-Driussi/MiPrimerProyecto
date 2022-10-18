@@ -338,4 +338,9 @@ footer ul {
 
 /* MoBile*/
 
-/* Card prueba*/
+@media  (max-width: 576px) {
+    body{
+        width: 100%;
+    }
+    
+}
