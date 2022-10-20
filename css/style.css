@@ -7,65 +7,13 @@
 
 /*Header*/
 
-h1 {
-    font-family: "inter", "sans-serif";
-    text-decoration: none;
 
-}
 
-header {
-    background-color: white;
-    width: 100%;
-    height: 70px;
-    box-sizing: border-box;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    padding: 10px;
+header{
+    font-family: "inter","sans-serif";
     
-
 }
 
-.navlogo {
-    font-weight: 500;
-    font-size: 1.5rem;
-
-}
-
-nav {
-    Display: flex;
-    Justify-content: space-between;
-    height: 100%;
-    Align-items: center;
-}
-
-nav ul {
-    font-size: 1rem;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    padding: auto;
-    gap: 50px;
-    font-family: "inter", "sans-serif";
-
-
-}
-
-ul {
-    list-style-type: none;
-    text-decoration: none;
-
-}
-
-header a:hover {
-    color: blue;
-
-}
-
-
-a {
-    text-decoration: none;
-    color: black;
-}
-*/
 
 /*clases*/
 
@@ -175,8 +123,13 @@ a {
     width: 100%;
 }
 
+.texto-buy{
+    color: white;
+    text-decoration: none;
+}
 .texto-buy:hover{
     color: white;
+    
 }
 
 /*Galeria*/
@@ -333,11 +286,7 @@ footer ul {
     font-weight: bold;
 }
 
-.absolute {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-}
 
 
-/* MoBile*/
+
+
