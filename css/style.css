@@ -191,6 +191,7 @@ a {
 .precio {
     margin: 1rem;
     font-weight: 500;
+    font-family: "inter", "sans-serif";
 
 }
 
@@ -228,6 +229,7 @@ a {
     justify-content: center;
     margin: 2rem;
     font-family: "inter", "sans-serif";
+    font-size: 40px;
 }
 
 .bordesvideos {
@@ -239,6 +241,13 @@ a {
 
 
 /*contacto*/
+
+.titulo-contact{
+    text-align: center;
+    font-size: 3rem;
+    font-family: "Inter", "sans-serif";
+}
+
 form {
     padding: 50px;
     font-size: 20px;
@@ -249,6 +258,7 @@ form {
     display: flex;
     justify-content: center;
 
+    
 
 
 }
@@ -284,13 +294,47 @@ input[type=submit]:hover {
 
 
 
+
 /*Nostros*/
 
 .imgrse {
     width: 50%;
-    height: 50%;
+    height: 30rem;
+    border-radius: 10px ;
+    margin:10px;
+    border: 2px solid black;
+    
+}
+
+.titulo-nos{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    font-size: 40px;
+    font-family: "inter", "sans-serif";
 
 }
+
+.subtitulo-nos{
+    display: flex;
+    justify-content: center;
+    margin: 15px;
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+.texto-nos{
+    margin: 20px;
+    justify-content: center;
+    background-color: aqua;
+}
+
+.root-nos{
+    display: grid;
+    grid-template-columns: 100%;
+    
+}
+    
 
 
 
@@ -341,6 +385,8 @@ footer ul {
 @media screen and (max-width: 576px) {
     body {
         justify-content: center;
+        align-items: center;
+        align-content: center;
     }
 
     .cards {
@@ -348,6 +394,7 @@ footer ul {
         grid-template-areas:
             "article"
             "article";
+        justify-content: center;    
 
        width: 100%;     
 
