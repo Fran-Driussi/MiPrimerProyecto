@@ -7,6 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bolt | Inicio</title>
     <link rel="shortcut icon" href="./assets/Imagenes/Icono.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/style.css" />
 
     <!--Google Fonts-->
@@ -22,6 +24,7 @@
 </head>
 
 <body id="grid">
+
     <header>
 
         <nav>
@@ -43,10 +46,35 @@
 
     </header>
     <main>
-        <div class="fotomain">
-            <img class="fotojordan" src="./assets/Imagenes/michael-jordan.webp" alt="fotojordan">
+        
+        
 
-        </div>
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./assets/Imagenes/michael-jordan.webp" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="./assets/Imagenes/jordan2.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="./assets/Imagenes/jordan3.jpg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
 
         <div class="wow aniamte_aniamted backInUp">
             <h2 class="titulo-main">Chequea nuestros nuevos productos</h2>
@@ -60,72 +88,96 @@
 
 
         <div class="wow aniamte_animated slideInLeft">
-            <section class="cards">
-                <article class="bordescata">
+
+            <section class="pos-card">
+                <div>
+                    <div class="card">
+                        <div>
+                            <img class="card-img-top" src="./assets/Imagenes/Air_force_blanca.webp" alt="Nike blanca">
+                        </div>
+
+                        <div class="card-body">
+                            <h2 class="card-title">Nike Air Force 1 low </h2>
+                            <p class="precio"><b>$155</b></p>
+
+                            <div class="card-text">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error esse porro minima
+                                    consequuntur, rem, facilis quasi asperiores doloribus qui minus magni perferendis
+                                    earum voluptatibus repudiandae tempore. Soluta numquam eius officia cum quam rem
+                                    reprehenderit id accusamus, sequi, ex ut temporibus ducimus natus animi vero
+                                    quibusdam obcaecati alias nisi! Tempora, repellendus?
+                                </p>
+                            </div>
+
+
+                            <button class="btn btn-primary">
+                                <a class="texto-buy" href="https://stockx.com/nike-air-force-1-low-puerto-rico-2022"
+                                    target="_blank"> Comprar</a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <article class="card">
+                        <div>
+                            <img class="card-img-top" src="./assets/Imagenes/jordan1retro.png" alt="">
+                        </div>
+                        <div class="card-body">
+                            <h2 class="card-title"> Jordan 1 Retro High OG</h2>
+                            <p class="precio"> <b>$202</b></p>
+
+                            <div class="card-text">
+                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate numquam,
+                                    reiciendis ducimus qui eligendi dolor soluta consequuntur alias modi maxime veniam
+                                    nobis deleniti rem nulla dolorem repudiandae eius tenetur tempora provident est quam
+                                    quod? Quos cupiditate assumenda illo fugit id quo maxime excepturi minus quod,
+                                    deserunt odit ipsam, impedit optio.
+
+                                </p>
+                            </div>
+                            <button class="btn btn-primary">
+                                <a class="texto-buy" href="https://stockx.com/air-jordan-1-retro-high-og-yellow-toe"
+                                    target="_blank"> Comprar</a>
+                            </button>
+                        </div>
+
+                    </article>
+                </div>
+
+                <article class="card">
                     <div>
-                        <img class="imgcata" src="./assets/Imagenes/Air_force_blanca.webp" alt="Nike blanca">
+                        <img class="card-img-top" src="./assets/Imagenes/adidas-yeezy.webp" alt="adidas yeezy">
                     </div>
 
+                    <div class="card-body">
+                        <h2 class="card-title">Adidas yeezy 700 V3 </h2>
+                        <p class="precio"><b>$214</b></p>
 
-                    <h2 class="titulo-cards">Nike Air Force 1 low Puerto Rico</h2>
-                    <p class="precio"><b>$155</b></p>
+                        <div class="card-text">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic officia numquam illum rem
+                                excepturi suscipit cupiditate eius, ad voluptates soluta maxime. Magni, reprehenderit
+                                fugit. Repellendus sit excepturi voluptas pariatur aut enim cupiditate molestias
+                                exercitationem explicabo mollitia voluptatibus animi alias sed id placeat, doloremque,
+                                consequatur harum perferendis impedit quod temporibus ratione?
 
-                    <div class="descrip">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur quae eveniet nisi!
-                            Accusamus quas dicta, inventore nulla ex placeat itaque perspiciatis tempora consequatur
-                            illo
-                            minima, iure iusto aliquam adipisci dolor. Nobis dolorem, omnis aut suscipit odit sed
-                            accusamus
-                            sapiente id blanditiis maiores. Corporis maxime temporibus magni a saepe necessitatibus
-                            debitis
-                            in culpa esse facilis ipsum vero fugit eius ut sapiente ipsam cum minima distinctio autem,
-                            voluptas deserunt minus quis, nostrum praesentium? Praesentium aliquid ipsa laborum.</p>
+                            </p>
+                        </div>
+
+
+                        <button class="btn btn-primary">
+                            <a class="texto-buy" href="https://stockx.com/adidas-yeezy-boost-700-v3-azael"
+                                target="_blank"> Comprar</a>
+                        </button>
                     </div>
-
-
-                    <button class="boton-buy">
-                        <a class="texto-buy" href="https://stockx.com/nike-air-force-1-low-puerto-rico-2022"
-                            target="_blank"> Comprar</a>
-                    </button>
-
                 </article>
 
-
-
-
-                <article class="bordescata">
-                    <div>
-                        <img class="imgcata" src="./assets/Imagenes/jordan1retro.png" alt="">
-                    </div>
-
-                    <h2 class="titulo-cards"> Jordan 1 Retro High OG</h2>
-                    <p class="precio"> <b>$202</b></p>
-
-                    <div class="descrip">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto, veniam ducimus!
-                            Eligendi,
-                            laborum quisquam et tempore minima nesciunt, deleniti optio facere voluptatem sed fuga id.
-                            Dolore possimus minima omnis quaerat accusantium saepe et blanditiis qui impedit cumque.
-                            Illum,
-                            suscipit maxime. Quos similique magnam eveniet eos quam harum obcaecati animi blanditiis
-                            labore
-                            incidunt accusamus, est, exercitationem voluptas? Aut labore quos voluptatem, voluptates
-                            minima
-                            ipsa, reprehenderit quisquam unde architecto recusandae dolor quibusdam saepe! Perspiciatis
-                            culpa omnis assumenda.
-
-                        </p>
-                    </div>
-                    <button class="boton-buy">
-                        <a class="texto-buy" href="https://stockx.com/air-jordan-1-retro-high-og-yellow-toe"
-                            target="_blank"> Comprar</a>
-                    </button>
-
-                </article>
 
 
             </section>
+
         </div>
+
 
         <a href="./pages/catalogo.html" target="_parent" class="view-more">View more</a>
 
@@ -151,6 +203,11 @@
     <script>
         new WOW().init();
     </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
+
+
 
 </body>
 
