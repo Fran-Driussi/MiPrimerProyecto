@@ -179,13 +179,12 @@ a {
     color: white;
 }
 
-/*tiendas*/
-.fondostores {
-    background-image: url("../assets/Imagenes/stores.jpg");
-    width: 100%;
-}
+/*Galeria*/
 
-.titulo-stores {
+
+
+
+.titulo-gale {
     display: flex;
     justify-content: center;
     margin: 2rem;
@@ -193,35 +192,49 @@ a {
     font-size: 40px;
 }
 
-.bordesvideos {
-    border-radius: 10px;
-    border: 3px solid black;
-    margin: 2rem;
-    margin-bottom: 5rem;
-}
+
 
 
 /*contacto*/
+.fondo{
+    background: linear-gradient(#000046, #1cb5e0);
+}
 
 .titulo-contact{
     text-align: center;
     font-size: 3rem;
     font-family: "Inter", "sans-serif";
     margin-top: 2rem;
+    color: white;
 }
 
 form {
     padding: 50px;
-    font-size: 20px;
+    font-size: 23px;
     font-family: Arial, sans-serif;
     text-align: center;
     align-items: center;
     width: 100%;
+   display: flex;
+   justify-content: center;
+   color: white;
+}
+
+.maps{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    padding: 25px;
+}
+.datos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+    font-size: 1,7rem;
+    color: white;
     
-
-
 }
 
 
