@@ -110,6 +110,7 @@ a {
     
 }
 
+
 .view-more {
     display: flex;
     justify-content: center;
@@ -149,7 +150,7 @@ a {
 }
 
 .card {
-    width: 30rem;
+    width: 25rem;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);  
     margin: 1rem; 
     
@@ -169,6 +170,7 @@ a {
     justify-content: space-evenly;
     flex-wrap: wrap;
 }
+
 .btn{
     width: 100%;
 }
