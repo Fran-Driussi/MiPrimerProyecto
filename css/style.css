@@ -154,16 +154,25 @@ header{
     color: white;
 }
 
-.col{
-    
+#galeria img{
+    width: 100%;
+    height: 250px;
+
+}
+#galeria img:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);;
+}
+#galeria .col-12{
     padding: 25px;
     margin-bottom: 2rem;
-    
+
 }
 
 .fondo-gale{
     background: linear-gradient(#002146, #1ce0d0);
 }
+
+
 
 
 
@@ -213,7 +222,7 @@ form {
 
 input[type=submit] {
     width: 100%;
-    background-color: #4CAF50;
+    background-color: #1cb5e0;
     color: white;
     padding: 14px 20px;
     margin: 8px 0;
@@ -223,7 +232,7 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-    background-color: #45a049;
+    background-color: #000046;
 }
 
 
