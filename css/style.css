@@ -239,9 +239,12 @@ input[type=submit]:hover {
 
 /*Nostros*/
 
-.imgrse {
-    width: 50%;
-    height: 30rem;
+.img-rse{
+    display: flex;
+    justify-content: center;
+}
+.img-fluid {
+    width: 90%;
     border-radius: 10px ;
     margin:10px;
     border: 2px solid black;
