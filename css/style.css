@@ -10,10 +10,12 @@
 
 
 header{
-    font-family: "inter","sans-serif";
+    font-family: "Inter","sans-serif";
     
 }
-
+.navbar-brand{
+    font-size: 1.7rem;
+}
 
 /*clases*/
 
@@ -55,6 +57,7 @@ header{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     padding: 10px;
     font-family: "inter", "sans-serif";
+    font-size: 1.7rem;
     
 }
 
@@ -98,9 +101,10 @@ header{
 }
 
 .card {
-    width: 25rem;
+    width: 20rem;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);  
-    margin: 1rem; 
+    margin: 2rem; 
+    padding: 1rem;
     
 }
 .card-img-top{
