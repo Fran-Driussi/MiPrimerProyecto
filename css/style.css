@@ -239,10 +239,7 @@ input[type=submit]:hover {
 
 /*Nostros*/
 
-.img-rse{
-    display: flex;
-    justify-content: center;
-}
+
 .img-fluid {
     width: 90%;
     border-radius: 10px ;
@@ -296,6 +293,7 @@ footer ul {
     flex-direction: row;
     justify-content: center;
     gap: 20px;
+    list-style: none;
     
 }
 
