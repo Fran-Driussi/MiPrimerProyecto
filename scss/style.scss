@@ -119,6 +119,16 @@ header {
     }
 }
 
+@media (max-width: 767px) {
+    .card{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+    }
+    
+}
+
 /*galeria*/
 .titulo-gale {
     display: flex;
